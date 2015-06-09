@@ -1,5 +1,7 @@
-package com.realdolmen.spring.domain;
+package com.realdolmen.spring.service;
 
+import com.realdolmen.spring.domain.Animal;
+import com.realdolmen.spring.domain.Visitor;
 import org.springframework.context.annotation.Bean;
 
 
@@ -10,7 +12,7 @@ public interface Zoo {
 
     boolean accept(Visitor visitor);
 
-    public String getName();
+    public String getNaam();
 
     public Integer countAnimals();
 
