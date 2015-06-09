@@ -1,12 +1,12 @@
 package com.realdolmen.spring.domain;
 
 /**
- * Created by cda5732 on 25/03/2015.
+ * Created by jeansmits on 9/06/15.
  */
-public abstract class Animal {
+public class Food {
     private String name;
 
-    public Animal(String name) {
+    public Food(String name) {
         this.name = name;
     }
 
@@ -18,7 +18,8 @@ public abstract class Animal {
         this.name = name;
     }
 
-    public void feed(Food f) {
-        System.out.println("Giving some food of type" + f + " to animal " + getName());
+    public String toString() {
+        return ": " + name;
     }
+
 }

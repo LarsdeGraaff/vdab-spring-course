@@ -6,6 +6,7 @@ import com.realdolmen.spring.domain.Visitor;
 /**
  * Created by cda5732 on 25/03/2015.
  */
+
 public interface Zoo {
     void addAnimal(Animal animal);
 
@@ -17,5 +18,7 @@ public interface Zoo {
 
     int countAnimals();
 
-    // TODO add method to feed animals
+    public void feedAnimals();
+
+
 }
