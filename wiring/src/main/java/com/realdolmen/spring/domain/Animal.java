@@ -19,6 +19,6 @@ public abstract class Animal {
     }
 
     public void feed(Food f) {
-        System.out.println("Giving some food of type" + f + " to animal " + getName());
+        System.out.println("Giving some food of type" + f + " to animal: " + getName());
     }
 }
