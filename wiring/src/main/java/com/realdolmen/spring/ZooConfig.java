@@ -8,9 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-/**
- * Created by cda5732 on 25/03/2015.
- */
+
 @Configuration
 @ComponentScan
 public class ZooConfig {
@@ -42,3 +40,6 @@ public class ZooConfig {
         foodRepository.addFoodForAnimalType(Bear.class, new Kibble("kibblen BEAR"));
         return foodRepository;    }
 }
+
+
+
